@@ -1,0 +1,66 @@
+.button{
+	margin: 0 auto;
+	width: 400px;
+	height: 90px;
+	border: 1px groove;
+	border-color: #56128F;
+	border-radius:30px;
+	background-color: #3F0D5C;
+	font-size: 2em;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding: 23px;
+}
+
+.buttonClick{
+	width:135px;
+	height: 56px;
+	border: 1px;
+	border-radius:27px;
+	background-color: #6B3B87;
+	font-size: 1.8em;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	padding: 13px;
+}
+
+
+.effect1{
+	-webkit-box-shadow: 0 10px 6px -6px #B896D4;
+	   -moz-box-shadow: 0 10px 6px -6px #B896D4;
+	        box-shadow: 0 10px 6px -6px #B896D4;
+	    }
+
+
+#mobContainer{
+	background-color: #3F0D5C;
+	border: 1px solid #000000;
+	width: 640px;
+	height:1136px;
+	position: absolute;
+	top: 320px;
+	right: 320px;
+	margin: -320px 0 0 -568px;
+	text-align: center; 
+}
+
+#noteContainer{
+	margin: 0 auto;
+	position: relative;
+	top: 25%
+}
+
+#loginContainer{
+	margin: 0 auto;
+	position: relative;
+	bottom: -20%;
+}
+
+#logoContainer{
+	position: relative;
+	top: 20px;
+	width: 100px;
+	height: 100px;
+}
