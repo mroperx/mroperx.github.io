@@ -1,6 +1,6 @@
 .button{
-	margin: 0 auto;
-	width: 400px;
+	/*margin: 0 10%;*/
+	/*width: 400px;*/
 	height: 90px;
 	border: 1px groove;
 	border-color: #56128F;
@@ -47,20 +47,19 @@
 }
 
 #noteContainer{
-	margin: 0 auto;
-	position: relative;
-	top: 25%
+	margin: 2% 10% 0 10%;
+	top: -5%
 }
 
 #loginContainer{
-	margin: 0 auto;
-	position: relative;
-	bottom: -20%;
+	margin: 10% 10% 0 10%;
+
 }
 
 #logoContainer{
-	position: relative;
+	z-index: -0;
+	margin:-20% 0 0 0;
 	top: 20px;
-	width: 100px;
-	height: 100px;
+	width: 640px;
+	height: 640px;
 }

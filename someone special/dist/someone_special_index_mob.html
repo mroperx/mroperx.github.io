@@ -10,24 +10,28 @@
 		</head>
 		<body>
 			<div id="mobContainer">
-				<div id="logoContainer">
-					<img src="images/twin.png" />
+				<div id="noteContainer">
+					
+					<form action="notes.php">	
+						<textarea rows="8" cols="56" maxlength="600" placeholder="Note" type="text" name="quickNote"></textarea>
+					</form>
+					<p>
+						<div class="button effect1">Add Note</div>
+					</p>
+					
 				</div>
 				<div id="loginContainer"> 
 					<form action="login.php">
-		  				<input width="400" placeholder="Login name" type="text" name="logon"><br>
+		  				<input style="width: 95%" placeholder="Login name" type="text" name="logon"><br>
 		  				<br>
-		  				<input width="400" placeholder="Password" type="password" name="password"><br>
+		  				<input style="width: 95%" placeholder="Password" type="password" name="password"><br>
 					</form>
 					<p><div class="button effect1">Submit</div></p>
 				</div>	
-				<div id="noteContainer">
-					<form action="notes.php">	
-						<textarea rows="8" cols="60" maxlength="600" placeholder="Note" type="text" name="quickNote"></textarea>
-					</form>
-					<p><div class="button effect1">Add Note</div></p>
+				<div id="logoContainer">
+					<img src="images/twin.png" />
 				</div>
-				<p style" font-size: 8px ; color: #56128F ;text align: center ;">Copyright 2014 All rights reserved</p>
+				<p style="font-size: 12px ; color: #FFFFFF ;text align: center ;">Copyright 2014 All rights reserved</p>
 			</div>
 		</body>
 
